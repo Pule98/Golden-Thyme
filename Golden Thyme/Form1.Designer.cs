@@ -92,9 +92,9 @@ namespace Golden_Thyme
             this.jackpotNumber.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.jackpotNumber.Location = new System.Drawing.Point(194, 444);
             this.jackpotNumber.Name = "jackpotNumber";
-            this.jackpotNumber.Size = new System.Drawing.Size(34, 23);
+            this.jackpotNumber.Size = new System.Drawing.Size(144, 23);
             this.jackpotNumber.TabIndex = 4;
-            this.jackpotNumber.Text = "dfdf";
+            this.jackpotNumber.Text = "Generated Number";
             // 
             // resultslbl
             // 
@@ -102,9 +102,9 @@ namespace Golden_Thyme
             this.resultslbl.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resultslbl.Location = new System.Drawing.Point(194, 491);
             this.resultslbl.Name = "resultslbl";
-            this.resultslbl.Size = new System.Drawing.Size(34, 23);
+            this.resultslbl.Size = new System.Drawing.Size(61, 23);
             this.resultslbl.TabIndex = 5;
-            this.resultslbl.Text = "dfdf";
+            this.resultslbl.Text = "Results";
             // 
             // label2
             // 
@@ -156,11 +156,11 @@ namespace Golden_Thyme
             // 
             this.cashamountlbl.AutoSize = true;
             this.cashamountlbl.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cashamountlbl.Location = new System.Drawing.Point(25, 415);
+            this.cashamountlbl.Location = new System.Drawing.Point(38, 420);
             this.cashamountlbl.Name = "cashamountlbl";
-            this.cashamountlbl.Size = new System.Drawing.Size(34, 23);
-            this.cashamountlbl.TabIndex = 10;
-            this.cashamountlbl.Text = "dfdf";
+            this.cashamountlbl.Size = new System.Drawing.Size(63, 23);
+            this.cashamountlbl.TabIndex = 7;
+            this.cashamountlbl.Text = "Amount";
             // 
             // Form1
             // 
