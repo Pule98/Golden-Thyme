@@ -18,8 +18,6 @@ namespace Golden_Thyme
             InitializeComponent();
         }
 
-        private int clickCounter = 0;
-        private const int MAX_Clicks = 3;
         private void button1_Click(object sender, EventArgs e)
         {
             string text = cashamounttxt.Text;
@@ -54,16 +52,11 @@ namespace Golden_Thyme
             }
             else
             {
-                MessageBox.Show("Minimum amount R10.00");
+                MessageBox.Show("Minimum amount R5.00");
                 button1.Enabled = false;
                 return;
             }
 
-            if (number == 0)
-            {
-                MessageBox.Show("Insert more money");
-                button1.Enabled = false;
-            }
 
             jackpotNumber.Text = systemNumber.ToString();
              cashamounttxt.Text = number.ToString();
@@ -105,16 +98,11 @@ namespace Golden_Thyme
             }
             else
             {
-                MessageBox.Show("Minimum amount R15.00");
-                button1.Enabled = false;
+                MessageBox.Show("Minimum amount R10.00");
+                button2.Enabled = false;
                 return;
             }
 
-            if (number == 0)
-            {
-                MessageBox.Show("Insert more money");
-                button1.Enabled = false;
-            }
 
             jackpotNumber.Text = systemNumber.ToString();
             cashamounttxt.Text = number.ToString();
@@ -157,15 +145,9 @@ namespace Golden_Thyme
             }
             else
             {
-                MessageBox.Show("Minimum amount R20.00");
-                button1.Enabled = false;
+                MessageBox.Show("Minimum amount R15.00");
+                button3.Enabled = false;
                 return;
-            }
-
-            if (number == 0)
-            {
-                MessageBox.Show("Insert more money");
-                button1.Enabled = false;
             }
 
             jackpotNumber.Text = systemNumber.ToString();
